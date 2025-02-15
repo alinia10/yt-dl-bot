@@ -1,6 +1,6 @@
 # yt-dl-bot
 
-yt-dl-bot is a Telegram bot that downloads YouTube videos (or entire playlists) and then uploads them either directly to Telegram or, if the file exceeds Telegram’s file size limits, to a Nextcloud server (via WebDAV). After processing each video, it removes the local file to manage server disk space.
+yt-dl-bot is a Telegram bot that downloads YouTube videos (or entire playlists) and then uploads them either directly to Telegram or, if the file exceeds Telegram’s file size limits, to a Nextcloud server (via WebDAV).
 
 # Configuration
 
