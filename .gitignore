@@ -175,3 +175,5 @@ poetry.lock
 
 DATA/*
 results/*
+devconf*
+cookies.txt

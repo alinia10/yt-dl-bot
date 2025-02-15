@@ -3,7 +3,7 @@ from datetime import datetime
 
 from jsonformatter import JsonFormatter  # type: ignore
 
-LOGGER_NAME = "spectroscopy"
+LOGGER_NAME = "dl"
 
 
 class LoggingLevel:
@@ -22,7 +22,7 @@ def get_logger():
     logger.propagate = False
     logger.setLevel(logging.INFO)
 
-    file_handler = logging.FileHandler("./results/spectroscopy.log", encoding="utf8")
+    file_handler = logging.FileHandler("./results/dl.log", encoding="utf8")
     stream_handler = logging.StreamHandler()
     formatter = JsonFormatter(
         ensure_ascii=False,

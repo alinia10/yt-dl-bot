@@ -1,2 +1,8 @@
-[inputs]
-zip_name = 'data'         # name of zip file without ".zip"
+[telegram]
+token = ''     
+
+[nextcloud]
+url = "https://iutbox.iut.ac.ir/remote.php/dav/files/user_name"
+share_api_url = "https://iutbox.iut.ac.ir/ocs/v2.php/apps/files_sharing/api/v1/shares"
+username = ""
+token = ""
