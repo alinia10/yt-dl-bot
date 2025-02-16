@@ -20,6 +20,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update && apt-get install -y \
     python3.12 \
     python3.12-venv \
+    yt-dlp \
     && rm -rf /var/lib/apt/lists/*
 
 # Ensure pip is installed for Python 3.12
